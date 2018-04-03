@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fahid.routineproject">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Smart Routine"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Main2Activity" />
+        <activity
+            android:name=".Main3Activity"
+            android:label="Smart Routine"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Showallrecord" />
+        <activity android:name=".Main5Activity" />
+        <activity android:name=".Showsingleday" />
+        <activity android:name=".Syllabus" />
+        <activity android:name=".Ftyear" />
+        <activity android:name=".Secndyear" />
+        <activity android:name=".Thirdyear" />
+        <activity android:name=".Fourthyear" />
+        <activity android:name=".Showallrcd2nd" />
+        <activity android:name=".Showsnglday2nd" />
+        <activity android:name=".Showallrcd3rd" />
+        <activity android:name=".Showsnglday3rd" />
+        <activity android:name=".Showallrcd4th" />
+        <activity android:name=".Showsnglday4th" />
+        <activity android:name=".Showsession" />
+        <activity android:name=".Showsyllabus"></activity>
+    </application>
+
+</manifest>

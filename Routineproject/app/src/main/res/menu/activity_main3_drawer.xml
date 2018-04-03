@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/syllabus"
+            android:icon="@drawable/book"
+            android:title="Syllabus"
+            />
+        <item
+            android:id="@+id/club"
+
+            android:icon="@drawable/browser"
+            android:title="Programming Club" />
+        <item
+            android:id="@+id/association"
+            android:icon="@drawable/group"
+
+            android:title="ICE Association" />
+
+        <item
+                android:id="@+id/admin"
+                android:checkable="true"
+                android:icon="@drawable/person"
+                android:title="Administrator" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/browser"
+                android:title="Website" />
+
+
+    </group>
+
+</menu>
